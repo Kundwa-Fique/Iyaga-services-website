@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>iyaga services co.ltd</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+	<link rel="stylesheet"  href="style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700;800&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"></head>
+
+</head>
+<body>
+    <section class="sub-header">
+		<nav>
+			<a href="Index.html"><img src="images/logo.png"></a>	
+			<div class="nav-links" id="navlinks">
+				<i class="fa fa-times" onclick="hidemenu()"></i>
+				<ul>
+					<li><a href="Index.html">HOME</a></li>
+					</li>
+					<li><a href="about us.html">ABOUT US</a></li>
+					<li class="active"><a href="Contact.html">CONTACT</a></li>
+				</ul>
+			</div>
+			<i class="fa fa-bars" onclick="showmenu()"></i>
+		</nav>
+		<div class="text-box">
+		<h2>CONTACT US </h2>
+	</div></section>
+    <section class="location">
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3987.5049993451585!2d30.15695897496711!3d-1.9511919980311154!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80b09c0223ab09b1%3A0x524b9bd41dad6cdb!2sIyaga%20services%20company%20ltd!5e0!3m2!1sen!2srw!4v1718779221813!5m2!1sen!2srw" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+	</section>
+	<section class="contact-us">
+     <div class="row">
+		<div class="contact-col">
+		<div>
+		<i class="fa fa-home"></i>
+		<span>
+			<h5>Kigali economoc zone Masoro</h5>
+			<p>near bk freezone branch</p>
+		</span>
+	 </div>
+	 <div>
+		<i class="fa fa-phone"></i>
+		<span>
+			<h5>+250789500166 | +250788502765</h5>
+			<p>Monday to saturday, 8:00 AM to 6:00 PM</p>
+		</span>
+	 </div>
+	 <div>
+		<i class="fa fa-envelope"></i>
+		<span>
+			<h5>iyagaservicescompanyltd@gmail.com</h5>
+			<p>email us your query</p>
+		</span>
+	 </div>
+     </div>
+	 <div class="contact-col">
+	 <form action="Form.php" method="post">
+		<input type="text"  name="name" placeholder="Enter your names" required>
+		<input type="text"  name="email" placeholder="Enter email address" required>
+		<input type="text"  name="phone" placeholder="Enter phone numbers" required>
+		<textarea rows="5"  name="message" placeholder="message" required></textarea>
+		<button type="submit" class="submit-btn">Send message</button>
+	 </form>	
+	 </div>
+	 </div>
+	</section>
+<!------------- footer ---------------->
+<footer>
+<ul class="social">
+<li><i class="fa fa-whatsapp"> 0789500166 / 0788502765</i></li>
+<div class="footer-bottom">
+<p>copyright &copy; 2024 Iyaga services company ltd </p>	
+</div>
+</footer>
+	<!------------- java script for toggle ---------------->
+
+    <script>
+	var navlinks = document.getElementById("navlinks")
+	function showmenu(){
+		navlinks.style.right="0";
+	}
+	function hidemenu(){
+		navlinks.style.right="-200px";
+	}
+	 </script>
+
+</body>
+</html>
