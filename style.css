@@ -433,7 +433,7 @@ p{
 
 /*--------------- abaut us page -------------------*/
 
-.sub-header P{
+.sub-headerP{
 	height: 70vh;
 	width: 100%;
 	background-image: url(images/sub P.png);
@@ -445,7 +445,7 @@ p{
 	
 }
 
-.sub-header T{
+.sub-headerT{
 	height: 70vh;
 	width: 100%;
 	background-image: url(images/sub T.png);
@@ -457,7 +457,7 @@ p{
 	
 }
 
-.sub-header B{
+.sub-headerB{
 	height: 70vh;
 	width: 100%;
 	background-image: url(images/sub B.png);
